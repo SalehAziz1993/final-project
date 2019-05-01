@@ -1,6 +1,72 @@
 *{
     font-family: 'Raleway', sans-serif;
   }
-  body, html{
+  body {
     margin: 10 auto;
+    background-color: rgb(240, 240, 252); 
+
+    
+  }
+
+  h1 {
+      text-align: center;
+      color: rgb(181, 180, 255); 
+  }
+
+  .image-container {
+    display: inline-block;
+    max-width: 31%;
+
+  }
+  img {
+      border-radius: 10px;
+      margin: 1.5%;
+      display: inline-block;
+      display: flexbox;
+    
+  }
+  
+  .bottom-left {
+    position: relative;
+    margin: 0%;
+    font-size: 16px;
+    text-align: center;
+    padding: 1%;
+    display: inline-block;
+
+  }
+
+  #word {
+    background-color: ghostwhite;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  width: 56%;
+  border-radius: 10;
+  font-size: 21px;
+
+
+  }
+
+  #submit {
+  background-color: rgb(181, 180, 255); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 30%;
+  border-radius: 10;
+  font-size: 21px;
+
+  }
+
+  form { 
+      padding : 1%;
+      margin: 1% ;
+      border-radius: 15;
   }
